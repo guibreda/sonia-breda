@@ -2,12 +2,11 @@
 {
     height: 60px;
     width: 60px;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .logo-name
 {
     width: 204px;
     text-align: center;
+    margin-top: 5px;
 }
