@@ -1,0 +1,14 @@
+.menu-navegation ul
+{
+    display: flex;
+}
+
+.menu-navegation ul li
+{
+    padding: 10px;
+}
+
+.menu-navegation ul li a
+{
+    text-transform: uppercase;
+}
