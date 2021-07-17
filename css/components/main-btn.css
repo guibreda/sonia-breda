@@ -1,0 +1,31 @@
+.main-btn
+{
+    width: fit-content;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    padding: 10px;
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.main-btn:hover
+{
+    background-color: #fff;
+    text-shadow: none;
+}
+
+.main-btn.-pos:hover
+{
+    color: var(--color-bloco-especialidade-pos);
+}
+
+.main-btn.-graduation:hover
+{
+    color: var(--color-bloco-especialidade-dp);
+}
+
+.main-btn.-doctor:hover
+{
+    color: var(--color-bloco-especialidade-dr);
+}
