@@ -1,7 +1,7 @@
 .main-wallpaper
 {
     height: 680px;
-    background-image: url(../../assets/img/foto-capa.jpg);
+    background-image: url(../../assets/img/foto-capa.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
