@@ -1,0 +1,11 @@
+.main-paragraph
+{
+    line-height: 25px;
+    text-align: justify;    
+}
+
+.main-paragraph.-service
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

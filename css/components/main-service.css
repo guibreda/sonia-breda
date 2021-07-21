@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     color: #fff;
-    width: 30%;
+    width: 28%;
     border-radius: 25px;
     padding: 15px;
     justify-content: space-between;
@@ -22,12 +22,4 @@
 .main-service.-main-doctor
 {
     background-color: var(--color-bloco-especialidade-dr);
-}
-
-.main-service .service-paragraph
-{
-    line-height: 25px;
-    text-align: justify;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }

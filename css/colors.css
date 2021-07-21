@@ -1,6 +1,8 @@
 :root
 {
-    --color-font-menu: #0984e3;
+    --color-font-menu: #5f5f5f;
+    --color-font-menu-hover: rgba(95, 95, 95, 0.596);
+    --color-font-menu-selected: #0984e3;
     --color-background-menu: #dfe6e9;
     --color-bloco-rodape: #4690ff;
     --color-borda-psicologa: #4286f4c9;
