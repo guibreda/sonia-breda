@@ -1,0 +1,25 @@
+.support-figure
+{
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 50px;    
+}
+
+.support-figure:last-child
+{
+    margin-right: 0;
+}
+
+.support-figure .bd-circle
+{
+    border-radius: 50%;
+}
+
+.support-figure .txt-support
+{
+    font-weight: 700;
+    font-size: 14px;
+    padding-top: 20px;
+}
