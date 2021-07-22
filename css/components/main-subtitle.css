@@ -3,18 +3,18 @@
     font-weight: 700;
     font-size: 30px;
     text-align: center;
-    padding: 10px;
 }
 
 .main-subtitle.-second
 {
-    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     font-size: 50px;
 }
 
 .main-subtitle.-third
 {
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .main-service .main-subtitle

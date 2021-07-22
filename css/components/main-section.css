@@ -1,5 +1,27 @@
-.main-section.-aboutChemical
+.main-section
+{    
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main-section.-support
 {
-    background-image: url(../../assets/img/dependencia-quimica.jpg);
+    background-color: var(--color-background-menu);
+    border-top-left-radius: 150px;
+}
+
+.main-section.-support .wrapper-figure
+{
+    max-width: 70%;
+    margin: auto;
+}
+
+.main-section.-bgAboutChemical
+{
+    position: relative;
+    z-index: -2;
+    margin-top: 50px;
+    background-image: url(../../assets/img/img-about.gif);
     background-repeat: no-repeat;
+    background-position-x: right;
 }
