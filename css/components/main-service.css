@@ -23,3 +23,9 @@
 {
     background-color: var(--color-bloco-especialidade-dr);
 }
+
+.main-service .main-subtitle
+{
+    font-size: 20px;
+    line-height: 25px;
+}

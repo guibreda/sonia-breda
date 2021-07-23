@@ -1,19 +1,23 @@
 .main-section
 {    
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
 .main-section.-support
 {
     background-color: var(--color-background-menu);
     border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
 }
 
 .main-section.-support .wrapper-figure
 {
     max-width: 70%;
     margin: auto;
+    display: flex;
+    padding-bottom: 40px;
+    justify-content: center;
 }
 
 .main-section.-bgAboutChemical
