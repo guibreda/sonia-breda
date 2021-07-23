@@ -29,3 +29,10 @@
     background-repeat: no-repeat;
     background-position-x: right;
 }
+
+.main-section.-info
+{
+    background-color: var(--color-background-bloco-rodape);
+    color: #fff;
+    margin-bottom: 0;
+}

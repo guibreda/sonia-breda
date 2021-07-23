@@ -26,3 +26,19 @@
 {
     color: var(--color-font-menu-selected);
 }
+
+.menu-navegation.-footer ul
+{
+    flex-direction: column;
+}
+
+.menu-navegation.-footer ul li
+{
+    padding: 5px;
+}
+
+.menu-navegation.-footer ul li a
+{
+    color: #fff;
+    font-weight: normal;
+}
