@@ -1,7 +1,7 @@
 .l-footer
 {
     background-color: var(--color-background-footer);
-    color: #fff;
+    color: var(--color-font-footer);
     padding: 20px;
     text-align: center;
 }

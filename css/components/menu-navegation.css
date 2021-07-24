@@ -35,10 +35,26 @@
 .menu-navegation.-footer ul li
 {
     padding: 5px;
+    margin-bottom: 8px;
+}
+
+.menu-navegation.-footer ul li:last-child
+{
+    margin-bottom: 0;
+
 }
 
 .menu-navegation.-footer ul li a
 {
     color: #fff;
     font-weight: normal;
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.menu-navegation.-footer ul li a:hover
+{
+    color: var(--color-background-bloco-rodape);
+    background-color: #fff;
 }
