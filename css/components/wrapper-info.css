@@ -5,3 +5,9 @@
     padding: 20px;
     justify-content: space-evenly;
 }
+
+.wrapper-info .contact .address
+{
+    display: flex;
+    flex-direction: column;
+}
