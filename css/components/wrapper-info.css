@@ -6,8 +6,38 @@
     justify-content: space-evenly;
 }
 
+.wrapper-info .contact
+{
+    text-align: start;
+}
+
 .wrapper-info .contact .address
 {
     display: flex;
     flex-direction: column;
+    padding-left: 5px;
+}
+
+.address > span
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.address > span a
+{
+    color: #fff;
+}
+
+.address > span:nth-child(3) a:hover,
+.address > span:nth-child(4) a:hover
+{
+    text-decoration: underline;
+}
+
+.contact iframe
+{
+    padding-left: 5px;
 }

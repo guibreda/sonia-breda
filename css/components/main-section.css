@@ -11,15 +11,6 @@
     border-bottom-left-radius: 150px;
 }
 
-.main-section.-support .wrapper-figure
-{
-    max-width: 70%;
-    margin: auto;
-    display: flex;
-    padding-bottom: 40px;
-    justify-content: center;
-}
-
 .main-section.-bgAboutChemical
 {
     position: relative;
