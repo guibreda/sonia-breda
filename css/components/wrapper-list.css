@@ -1,0 +1,34 @@
+.wrapper-list
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.list
+{
+    display: flex;
+}
+
+.list-formation
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.list-formation h3
+{
+    background-color: var(--color-background-formacao-especialidade);
+    color: #fff;
+    margin-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px !important;
+    font-weight: 700;
+}
+
+.list-formation:last-child h3
+{
+    margin-right: 0;
+}

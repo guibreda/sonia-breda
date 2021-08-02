@@ -5,6 +5,8 @@
     border-top-left-radius: 50%;
     border-bottom-right-radius: 50%;
     transition-duration: 0.5s;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .main-image:hover
