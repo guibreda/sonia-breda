@@ -15,6 +15,10 @@
 .main-subtitle.-second.-psycho
 {
     padding-top: 0;
+    font-size: 30px;
+    max-width: 700px;
+    line-height: 1.2em;
+    margin-left: 30px;
 }
 
 .main-subtitle.-third

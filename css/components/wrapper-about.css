@@ -2,5 +2,11 @@
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center;    
+}
+
+.wrapper-about .img-article
+{
+    display: flex;
+    margin: auto;
 }

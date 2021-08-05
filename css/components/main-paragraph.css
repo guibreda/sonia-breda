@@ -14,3 +14,10 @@
 {
     line-height: 40px;
 }
+
+.main-paragraph.-psycho
+{
+    max-width: 700px;
+    margin-left: 50px;
+    line-height: 30px;
+}

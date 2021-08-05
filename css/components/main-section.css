@@ -1,7 +1,7 @@
 .main-section
 {    
-    margin-top: 25px;
-    margin-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 50px;
 }
 
 .main-section.-support
@@ -25,10 +25,14 @@
 {
     background-color: var(--color-background-bloco-rodape);
     color: #fff;
-    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
-/* .main-section.-about
+.main-section.-about
 {
-    display: flex;
-} */
+    position: relative;
+    z-index: -2;
+    background-image: url(../../assets/img/fundo-hexagonal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
