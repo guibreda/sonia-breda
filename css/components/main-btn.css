@@ -32,3 +32,18 @@
 {
     color: var(--color-bloco-especialidade-dr);
 }
+
+.main-btn.-form
+{
+    background-color: var(--color-background-botao-formulario);
+    border: none;
+    width: 250px;
+    height: 50px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.main-btn.-form:hover
+{
+    background-color: var(--color-background-botao-formulario-hover);
+}

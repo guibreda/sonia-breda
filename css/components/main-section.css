@@ -31,8 +31,17 @@
 .main-section.-about
 {
     position: relative;
-    z-index: -2;
+    z-index: 1;
     background-image: url(../../assets/img/fundo-hexagonal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-section.-contact
+{
+    position: relative;
+    z-index: 1;
+    background-image: url(../../assets/img/fundo_contact.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }

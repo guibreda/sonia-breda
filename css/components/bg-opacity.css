@@ -9,3 +9,8 @@
     opacity: 0.85;
     z-index: -1;
 }
+
+.bg-opacity.-dark
+{
+    background: rgba(0, 0, 0, 0.20);
+}
