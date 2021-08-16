@@ -44,4 +44,5 @@
     background-image: url(../../assets/img/fundo_contact.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    border-top-left-radius: 350px;
 }
