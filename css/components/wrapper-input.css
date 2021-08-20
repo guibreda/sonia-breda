@@ -6,3 +6,9 @@
     margin: auto;
     width: 68%;
 }
+
+.wrapper-input.-treat
+{
+    flex-direction: column;
+    margin: 0;
+}

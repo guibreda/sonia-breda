@@ -1,7 +1,6 @@
 .main-paragraph
 {
     line-height: 25px;
-    text-align: justify;    
 }
 
 .main-paragraph.-service
@@ -12,7 +11,7 @@
 
 .main-paragraph.-aboutChemical
 {
-    line-height: 40px;
+    line-height: 30px;
 }
 
 .main-paragraph.-psycho

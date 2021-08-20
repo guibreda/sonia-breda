@@ -1,5 +1,10 @@
 .main-article
 {
-    width: 70%;
-    margin: auto;
+    width: 60%;
+}
+
+.main-article .image-treat
+{
+    display: block;
+    width: 100%;
 }
