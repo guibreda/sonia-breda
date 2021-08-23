@@ -3,6 +3,12 @@
     width: 60%;
 }
 
+.main-article.-aboutChemical
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .main-article .image-treat
 {
     display: block;

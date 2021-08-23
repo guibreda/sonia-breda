@@ -50,10 +50,14 @@
     padding-left: 5px;
 }
 
-.main-subtitle.-third span
+.main-subtitle.-third.-color
+{
+    color: #fff;
+}
+
+.main-subtitle.-third.-color span
 {
     text-decoration: underline;
-    color: #fff;
     text-align: center;
 }
 

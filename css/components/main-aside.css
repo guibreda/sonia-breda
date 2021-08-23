@@ -1,7 +1,8 @@
 .main-aside
 {
-    background: linear-gradient(to bottom, #c7d1ff, #ff0);
+    background: var(--color-background-bloco-consulta);
     border-radius: 20px;
     padding: 25px;
     margin-left: 20px;
+    height: 365px;
 }

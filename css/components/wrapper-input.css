@@ -12,3 +12,18 @@
     flex-direction: column;
     margin: 0;
 }
+
+.c-input
+{
+    margin: auto;
+}
+
+.c-input label
+{
+    color: #fff;    
+}
+
+.c-input label:first-of-type
+{
+    padding-right: 5px;
+}

@@ -6,11 +6,14 @@
     --color-font-footer: #666;
     --color-background-menu: #dfe6e981;
     --color-background-bloco-rodape: #2f8cff;
+    --color-background-bloco-consulta: linear-gradient(to bottom, #a29bfe, #fd79a8);
     --color-background-footer: rgb(39, 39, 39);
     --color-background-formacao-especialidade: #ff5600;
-    --color-borda-psicologa: #4286f4c9;
     --color-background-botao-formulario: rgb(8, 180, 139);
     --color-background-botao-formulario-hover: rgb(8, 204, 139);
+    --color-background-botao-consulta: #a29bfe;
+    --color-background-botao-consulta-hover: rgb(162, 179, 254);
+    --color-borda-psicologa: #4286f4c9;
     --color-bloco-especialidade-pos: rgba(137, 195, 154, 0.99);
     --color-bloco-especialidade-dr: rgba(183, 50, 142, 0.8);
     --color-bloco-especialidade-dp: rgba(95, 182, 191, 0.99);

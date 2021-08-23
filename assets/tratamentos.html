@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="../css/components/main-aside.css">
     <link rel="stylesheet" href="../css/components/wrapper-input.css">
     <link rel="stylesheet" href="../css/components/main-input.css">
+    <link rel="stylesheet" href="../css/components/main-btn.css">
     <link rel="stylesheet" href="../css/components/wrapper-info.css">
     <link rel="stylesheet" href="../css/components/l-footer.css">
 
@@ -70,13 +71,19 @@
                 Atque eaque natus enim saepe labore non tempora rem nostrum, aliquid reprehenderit neque odio facilis optio voluptatum sit error vitae esse voluptatem blanditiis quis est vel alias explicabo. Ullam, harum.</p>
             </article>
             <aside class="main-aside">
-                <h3 class="main-subtitle -third">Faça uma avaliação <br><span>GRATUITA</span></h3>
+                <h3 class="main-subtitle -third -color">Faça uma avaliação <br><span>GRATUITA</span></h3>
                 <form action="" class="wrapper-input -treat">
                     <input type="text" name="name" id="name" class="main-input -treat" required placeholder="Nome">
                     <input type="email" name="email" id="email" class="main-input -treat" required placeholder="E-mail">
                     <input type="tel" name="phone" id="phone" class="main-input -treat" required placeholder="Telefone">
-                    <input type="radio" name="presencial" id="" required placeholder="Presencial">
-                    <input type="radio" name="" id="" placeholder="Virtual" required>
+                    <p class="c-paragraph -color">Selecione o atendimento desejado:</p>
+                    <div class="c-input">
+                        <input type="radio" name="atendimento" id="virtual" value="Virtual" checked>
+                        <label for="virtual">Virtual</label>
+                        <input type="radio" name="atendimento" id="presencial" value="Presencial">
+                        <label for="presencial">Presencial</label>                        
+                    </div>
+                    <input class="main-btn -form -color" type="button" value="Agendar consulta">
                 </form>
             </aside>
         </main>
