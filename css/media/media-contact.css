@@ -1,0 +1,17 @@
+@media (max-width: 426px)
+{
+    .main-section.-contact
+    {
+        border-top-left-radius: 200px;
+    }
+
+    .bg-opacity.-dark
+    {
+        border-top-left-radius: inherit;
+    }
+
+    .wrapper-input button
+    {
+        margin: auto;
+    }
+}

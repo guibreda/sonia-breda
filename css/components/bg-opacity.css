@@ -13,5 +13,5 @@
 .bg-opacity.-dark
 {
     background: rgba(0, 0, 0, 0.20);
-    border-top-left-radius: 350px;
+    border-top-left-radius: inherit;
 }

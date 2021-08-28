@@ -82,4 +82,10 @@
         background-color: var(--color-font-menu-selected);
         color: #fff !important;
     }
+
+    .institutional,
+    .specialties
+    {
+        display: none;
+    }
 }
