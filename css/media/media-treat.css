@@ -1,0 +1,13 @@
+@media (max-width: 426px)
+{
+    .main-article
+    {
+        width: 95%;
+    }
+
+    .main-aside
+    {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+}

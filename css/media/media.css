@@ -88,4 +88,20 @@
     {
         display: none;
     }
+
+    .find-us
+    {
+        margin-top: 30px;
+    }
+
+    .main-subtitle.-third.-box
+    {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .social-midias
+    {
+        padding-left: 0 !important;
+    }
 }
