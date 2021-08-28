@@ -1,0 +1,48 @@
+@media (max-width: 426px)
+{
+    .img-article
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-image
+    {
+        width: 300px;
+        border: 5px solid var(--color-borda-psicologa);
+    }
+
+    .main-article    
+    {
+        width: 95%;
+    }
+
+    .main-subtitle.-second.-psycho
+    {
+        margin: 0;
+        padding: 20px 0;
+        font-size: 2.2rem;
+    }
+
+    .main-paragraph.-psycho
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .wrapper-list
+    {
+        flex-direction: column;
+    }
+
+    .list-formation
+    {
+        align-items: center;
+        margin-right: 0;
+    }
+    .list-formation ul
+    {
+        width: 90%;
+        text-align: center;
+    }
+}
