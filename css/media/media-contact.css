@@ -10,6 +10,11 @@
         border-top-left-radius: inherit;
     }
 
+    .wrapper-input
+    {
+        width: 85%;
+    }
+
     .wrapper-input button
     {
         margin: auto;
