@@ -4,6 +4,7 @@
     background-image: url(../../assets/img/foto-capa.png);
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 .main-thought
@@ -12,8 +13,11 @@
     background-color: rgba(255, 255, 255, 0.45);
     border: 2px solid black;
     border-radius: 75px;
-    font-size: 1.2rem;
+    font-size: 2.2rem;
     padding: 5px 20px;
     text-align: center;
-    line-height: 1.4rem;
+    line-height: 2.6rem;
+    position: absolute;
+    top: 40%;
+    left: 45%;
 }
