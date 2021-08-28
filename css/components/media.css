@@ -7,7 +7,6 @@
     
     .one, .two, .three
     {
-        background-color: red;
         height: 5px;
         width: 100%;
         margin: 6px auto;
@@ -32,6 +31,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        z-index: 2;
     }
     
     .l-header.on .menu-navegation
