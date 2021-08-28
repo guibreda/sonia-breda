@@ -1,0 +1,43 @@
+@media (max-width: 426px)
+{
+    
+    .main-article
+    {
+        width: 85%;
+    }
+
+    .main-section.-bgAboutChemical
+    {
+        background-size: cover;
+    }
+
+    .main-service
+    {
+        width: 85%;
+        margin-bottom: 1.4rem;
+    }
+
+    .main-wallpaper
+    {
+        background-size: cover;
+    }
+
+    .main-thought
+    {
+        display: none;
+    }
+
+    .support-figure,
+    .support-figure:nth-child(4n),
+    .support-figure:nth-child(n+9):nth-child(-n+12)
+    {
+        margin: auto;
+        padding-bottom: 1.4rem;
+    }
+
+    .wrapper-service
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+}

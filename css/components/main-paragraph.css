@@ -1,6 +1,6 @@
 .main-paragraph
 {
-    line-height: 25px;
+    line-height: 2.5rem;
 }
 
 .main-paragraph.-service
@@ -11,14 +11,14 @@
 
 .main-paragraph.-aboutChemical
 {
-    line-height: 30px;
+    line-height: 3rem;
 }
 
 .main-paragraph.-psycho
 {
     max-width: 700px;
     margin-left: 50px;
-    line-height: 30px;
+    line-height: 3rem;
 }
 
 .c-paragraph.-color

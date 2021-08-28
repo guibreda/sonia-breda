@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="../css/components/wrapper-list.css">
     <link rel="stylesheet" href="../css/components/wrapper-info.css">
     <link rel="stylesheet" href="../css/components/l-footer.css">
+    <link rel="stylesheet" href="../css/components/media.css">
 
     <!-- Fav Icon -->
     <link rel="apple-touch-icon" sizes="180x180" href="img/fav-icon/apple-touch-icon.png">
@@ -41,19 +42,26 @@
     <title>Sobre a Psicóloga Sonia Breda</title>
 </head>
 <body>
-    <header class="l-header">
+    <header>
         <div class="wrapper-logo">
             <a class="logo-link" href="../index.html">
                 <img class="main-logo" src="img/logo-psicologia.png" alt="Logo da psicologia"><span class="logo-name">Sonia Breda <br> Psicóloga Clínica | 06/20059</span>
             </a>
-            <nav class="menu-navegation">
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="sobre-psicologa.html" class="isSelected">Sobre a Psicóloga</a></li>
-                    <li><a href="tratamentos.html">Tratamentos</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
-            </nav>
+            <div class="l-header">
+                <div class="menu-toggle">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+                <nav class="menu-navegation">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="sobre-psicologa.html" class="isSelected">Sobre a Psicóloga</a></li>
+                        <li><a href="tratamentos.html">Tratamentos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>        
     </header>
     <section class="main-section -about">
@@ -144,8 +152,9 @@
         </div>
     </section>
 </main>
-<footer class="l-footer">
-    <p>&copy; 2021 - Todos os direitos reservados | <em>Psicóloga Clínica Dra Sonia Breda</em> | CRP 06/20059</p>
-</footer>
+    <footer class="l-footer">
+        <p>&copy; 2021 - Todos os direitos reservados | <em>Psicóloga Clínica Dra Sonia Breda</em> | CRP 06/20059</p>
+    </footer>
+    <script src="../script/components/menu-toggle.js"></script>
 </body>
 </html>

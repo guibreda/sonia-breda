@@ -1,0 +1,85 @@
+@media (max-width: 426px)
+{
+    .menu-navegation
+    {
+        display: none;
+    }
+    
+    .one, .two, .three
+    {
+        background-color: red;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+        transition-duration: 0.3s;
+    }
+
+    .menu-toggle
+    {
+        width: 40px;
+        height: 30px;
+        margin-right: 20px;
+    }
+
+    .l-header.on
+    {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        background-color: rgba(255, 255, 255, 0.93);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .l-header.on .menu-navegation
+    {
+        display: block;
+    }
+
+    .l-header.on .menu-toggle
+    {
+        position: absolute;
+        top: 40px;
+        right: 25px;
+    }
+    .menu-toggle .one,
+    .menu-toggle .two,
+    .menu-toggle .three
+    {
+        background-color: var(--color-font-menu-selected);
+    }
+    .l-header.on .menu-toggle .one
+    {
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+    .l-header.on .menu-toggle .two
+    {
+        opacity: 0;
+    }
+    .l-header.on .menu-toggle .three
+    {
+        transform: rotate(-45deg) translate(8px, -9px);
+    }
+
+    .menu-navegation ul
+    {
+        display: block;
+    }
+    .menu-navegation ul li a
+    {
+        color: var(--color-font-menu-selected) !important;
+        font-size: 2rem;
+        transition-duration: 0.5s;
+        line-height: 4rem;
+        display: block;
+        margin: 0;
+    }
+    .l-header.l-header.on .menu-navegation ul li a:hover
+    {
+        background-color: var(--color-font-menu-selected);
+        color: #fff !important;
+    }
+}
