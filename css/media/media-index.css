@@ -46,7 +46,8 @@
 
     .main-wallpaper
     {
-        background-size: cover;
+        height: 85vh;
+        background-image: url(../../assets/img/foto-capa-mobile.png);
     }
 
     .main-thought
