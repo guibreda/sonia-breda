@@ -1,8 +1,20 @@
+@media (max-width: 1025px)
+{
+    .wrapper-input .main-input:nth-child(-n+4)
+    {
+        width: 340px;
+    }
+}
+
 @media (max-width: 769px)
 {
     .main-section.-contact
     {
         border-top-left-radius: 300px;
+    }
+    .wrapper-input .main-input:nth-child(-n+4)
+    {
+        width: 520px;
     }
     .wrapper-input button
     {
@@ -26,7 +38,10 @@
     {
         width: 85%;
     }
-
+    .wrapper-input .main-input:nth-child(-n+4)
+    {
+        width: 360px;
+    }
     .wrapper-input button
     {
         margin: auto;
